@@ -1,0 +1,89 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>ITSLA_SSASMD</Database>
+    <Server>PK6-14</Server>
+    <ConnectionString>Data Source=PK6-14;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>1CYMLFqRgupdnH2azj2jCS1CkRg=21.10.2018 10:40:2121.10.2018 10:19:43</TimeStamp>
+        <ID>
+          <String>ContosoRetailDW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>InAXkR9y5QOnYcvrsSSCNIyjfms=30.09.2018 14:02:0521.10.2018 10:19:43</TimeStamp>
+        <ID>
+          <String>ContosoRetailDW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>WVSRVtAL4sglUJM8aOWg3l8qR+U=30.09.2018 14:02:0521.10.2018 10:19:43</TimeStamp>
+        <ID>
+          <String>DimDate</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>p5ot3KduwSY4YCLwDPYYJR2Qlj0=30.09.2018 14:02:0521.10.2018 10:19:43</TimeStamp>
+        <ID>
+          <String>vDimMachine</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>E9UVGfWtX01JKfIIwh5mHRJjIY8=30.09.2018 14:02:0521.10.2018 10:19:43</TimeStamp>
+        <ID>
+          <String>DimOutage</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>KlkSG9MUOI5ba0Zry+83DdFSF+0=30.09.2018 14:02:0521.10.2018 10:19:43</TimeStamp>
+        <ID>
+          <String>DimStore</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>jlaY40V5hnlcWgWIhqXRWXQpH9k=30.09.2018 14:02:0521.10.2018 10:19:43PGGv+brZuuoQPfQyUFtCDoYjfp0=30.09.2018 14:02:0521.10.2018 10:19:43</TimeStamp>
+        <ID>
+          <String>ITSLACube</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>iL5stnRVkYlgxBln9O5iKjeKl7c=21.10.2018 11:00:3621.10.2018 10:48:2391X34MRlPoZFIKW1LujkevGI/CI=21.10.2018 10:48:2421.10.2018 10:48:24</TimeStamp>
+        <ID>
+          <String>ContosoRetailDWProjekt</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>0CP73yrfrNMW74DYJic4gvTDBnE=30.09.2018 14:02:0521.10.2018 10:19:43</TimeStamp>
+      <ID>
+        <String>ITSLA_SSASMD</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2018-10-21T09:00:39.53Z</LastDeployed>
+</DeploymentSnapshot>
